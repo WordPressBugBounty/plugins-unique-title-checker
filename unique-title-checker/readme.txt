@@ -1,7 +1,7 @@
 === Unique Title Checker ===
 Contributors: Kau-Boy
 Tags: title, seo, duplicate title, unique title
-Tested up to: 6.8
+Tested up to: 6.9
 Stable tag: 2.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
@@ -39,6 +39,9 @@ No, it only checks the uniqueness per post type. But you can customize the `WP_Q
 
 = Can I only show messages if a title is not unique? =
 Yes, you can use the filter `unique_title_checker_only_unique_error` with `__return_true` to deactivate it ([or use this plugin which implements the filter](https://gist.github.com/140116e47f2d6c8ae25b002592ac45eb)).
+
+= How can I report security bugs? =
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team helps validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/220657ec-6e51-4a7e-b61f-02002500e77b)
 
 == Screenshots ==
 
